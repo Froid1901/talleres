@@ -1,0 +1,195 @@
+body{
+
+	background-image:url("../imagenes/AE3.jpg"); 
+	margin:auto;
+	padding:auto;
+	color:white;
+	
+}
+h1{
+text-align:center;
+display:inline-block;
+background:#566266;
+border-style:double;
+color:#fff;
+padding:2px;
+margin-left:44%;	
+
+}
+
+header {
+	width:80%;
+	max-width:800px;
+	margin:auto;
+
+}
+nav {
+	background:#566266;
+	border-style:double;
+	margin-top:3%;
+	position: relative;
+}
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+nav > ul > li {
+	float:left;
+}
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:4px 20px;
+}
+nav ul li a:hover {
+	background:#00587E;
+}
+nav > ul > li:hover div {
+	display:table;
+}
+
+/*Submenu*/
+nav ul li div {
+	width:10%;
+	position: absolute;
+	left:120px;
+	background:#566266;
+	border-style:double;
+	box-sizing:border-box;
+	display:none;
+}
+
+h2{
+
+text-align: center;
+margin:2%;
+margin-bottom:5%;
+
+}
+
+.audio{
+position:absolute;
+margin-top: 180px;
+margin-left:50%;
+transform:translateX(-50%);
+}
+.l p{	
+	
+	margin:9%;
+	font-size:140%;
+	text-align:center;
+	color:white;
+
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+.datos{
+margin:2px;
+width:96%;
+color:white;
+
+
+}
+.datos div{
+border: 2px solid #446EBA;
+border-radius: 5px;
+background:#566266;
+margin:1%;
+width:35%;
+display:inline-block;
+padding:1%;
+}
+.datos img{
+margin:1%;
+float:right;
+width:14%;
+
+}
+.perfil{
+padding:0%;
+font-size:110%;
+margin:1%;
+color:white;
+background:#566266;
+border: 2px solid #446EBA;
+border-radius: 5px;
+}
+
+/*Ejercicios-------------------------------------------------------------------------------------*/
+.madre{
+	
+	
+	text-align: center;
+	margin:10%;
+
+}
+.madre a{
+
+display:inline-block;
+color:white;
+margin:6%;
+
+}
+.V{
+	text-align:center;
+}
+.volver{
+width:6%;
+background:gray;
+color:white;
+background:#566266;
+border: 2px solid #446EBA;
+}
+.volver a{
+font-size:130%;
+color:white;
+text-decoration:none;
+}
+.o{
+	margin:1%;
+	background:#566266;
+	border: 2px solid #446EBA;
+	border-radius: 10px;
+}
+.o p{	
+	
+	margin:1%;
+
+	font-size:140%;
+	text-align:center;
+	color:white;
+}
+.descarga{
+	
+	margin:1%;
+	background:#566266;
+	border: 2px solid #446EBA;
+	border-radius: 10px;
+}
+.descarga div{
+	margin:1%;
+	
+	text-align:center;
+}
+.descarga div a{
+	
+	color:white;
+	
+} 
+.c{
+	background:#566266;
+	border: 2px solid #446EBA;
+	border-radius: 10px;
+	margin:4%;
+}
+.c p{	
+	
+	margin:1%;
+	font-size:140%;
+	text-align:center;
+	color:white;
+
+}
